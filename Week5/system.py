@@ -6,9 +6,11 @@ def syscom(n,k):
     for i in range(n+1):
         a[i] = fct(n,i)
 
-    for r in range(n-k):
+    for r in range(k):
         j = random(r)
         #a[j] popout 
+        #for k個
+        #每一個K當中去窮舉n的排列
         return
 
 def factorial(n):
