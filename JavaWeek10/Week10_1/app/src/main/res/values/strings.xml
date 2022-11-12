@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ch7-3</string>
+    <string-array name="dessert">
+        <item>頻果派</item>
+        <item>可麗餅</item>
+        <item>奶酪</item>
+    </string-array>
+</resources>
