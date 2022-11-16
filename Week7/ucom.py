@@ -3,10 +3,10 @@
 U = lambda g: g(g) # U(g) = g(g) = U(g)
 
 fact = U( # fact = U(g) = g(g) = 1 if x == 0 else x*fact(x-1)
-   # lambda f: # g for self-referencing
+    lambda f: # g for self-referencing
         lambda x: # currying is for passing the halting condition #丟進去Ｕ的g便是這個lambda的f裡面的lambda x
-            #1 if x == 0 else x * f(f)(x - 1) # g(g) = fact
-            1 if x == 0 else x * (x - 1)
+            1 if x == 0 else x * f(f)(x - 1) # g(g) = fact
+            #1 if x == 0 else x * f(f)(x - 1)
 )
 
 print('fact(5)=', fact(5))
