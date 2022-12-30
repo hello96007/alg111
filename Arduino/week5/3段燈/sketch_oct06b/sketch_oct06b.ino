@@ -1,4 +1,4 @@
-void setup() {
+      void setup() {
   // put your setup code here, to run once:
 pinMode(2,INPUT);
 pinMode(3,OUTPUT);
