@@ -34,5 +34,5 @@ def bfs(g, q): #  廣度優先搜尋
 
 print('bfs:', end = '')
 init(g)
-bfs(g, ['1']) # 呼叫廣度優先搜尋。
+bfs(g,['1']) # 呼叫廣度優先搜尋。
 print('')

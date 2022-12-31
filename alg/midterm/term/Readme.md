@@ -2,7 +2,7 @@
 
 # 聲明
 - 1.部分程式都是引用自他人，經過熟讀加以修改並註解 
-- 2.沒有註解的部分
+- 2.所有內容都是經過熟讀參考資料，再經過修改整理
 ## 目錄
 - BFS與DFS定義
 - BFS與DFS程式碼
@@ -20,6 +20,7 @@
 
 
 ## BFS與DFS程式碼
+#### 備註:參考 [陳鍾誠老師人工智慧課程](https://gitlab.com/cccnqu111/ai/-/blob/master/03-search/02-search/graph_search.py)
 1.BFS:
 
 ```
@@ -60,7 +61,9 @@ def bfs(g, q): #  廣度優先搜尋
 print('bfs:', end = '')
 init(g)
 bfs(g,['1']) # 呼叫廣度優先搜尋。
-print('')```
+print('')
+```
+
 
 2.DFS
 ```
@@ -97,10 +100,48 @@ print('')
 ```
 
 
+
+## BFS與DFS應用
+#### 備註：參考CHATGPT(問題：DFS與BFS應用)，將其回答加以驗證
+#### 參考資料：[BFS應用](https://www.guru99.com/breadth-first-search-bfs-graph-example.html)
+#### 參考資料：[DFS應用](https://www.geeksforgeeks.org/depth-first-ordering-in-compiler-design/)
+1.BFS
+- 網路爬蟲
+> 透過網頁內的內容(超連結)去觸及更多網頁，並將這些網頁結果整理處理。
+- p2p網路架構
+> 找尋網路節點的鄰居並向其索取資料，就能更快速找到資料。
+- 網路廣播
+> 將封包透過BFS來送達每一個節點。
+- 導航
+>找尋附近景點的美食及更多的美食:)
+
+2.DFS
+- 老鼠走迷宮
+- 著色問題
+> 連接二分途的應用
+- 旅行推銷員問題
+> 是否每一個節點都能走到而且不會經過重複的點
+- 編譯器設計
+> 分析語法
+
+## 補充內容
+- 1.迭代深化深度優先搜尋 （iterative deepening depth-first search (IDS or IDDFS))）
+> 說明:一層一層的找尋，如果找到資料就停下來
+- 2.最小生成樹(minimal spanning tree)
+- (參考離散數學的圖論)
+> - (1)Kruskal's algorithm
+> - 搜尋每個節點間edge的priority,priority由小到大尋找,如果已經有edge連接兩個node,則該edge跳過，再找下一個edge。
+> - (2)Prim's algorithm
+> - 先尋找每個節點間edge的priority最小值，從最小值開始延伸尋找較小的priority。
+- 3.Dijkstra's 與 Prim's的差別
+> - 一個是找最短路徑，一個是找最小生成數
+
 ## 參考資料
 1.https://www.796t.com/content/1549064200.html
 2.https://zh.wikipedia.org/wiki/广度优先搜索
 3.https://zh.wikipedia.org/zh-tw/深度优先搜索
 4.https://zh.wikipedia.org/zh-tw/迭代深化深度优先搜索
+5.https://www.guru99.com/breadth-first-search-bfs-graph-example.html
+6.http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week14/ID_DFS_HsinChu.pdf
 
 
