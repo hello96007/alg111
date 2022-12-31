@@ -144,4 +144,12 @@ print('')
 5.https://www.guru99.com/breadth-first-search-bfs-graph-example.html
 6.http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week14/ID_DFS_HsinChu.pdf
 
+## 後記：心得
+```
+    又這樣過了一學期，充實的一學期。課堂從最一開始的Big-o到最後的數學領域，當中也學到了lamda的寫法,
+    當然最重要的還是許許多多演算法的方法。雖然有許多的課程我可能只吸收了一半，甚至還不到一半，但最重要的是
+    我能了解到演算法與資料結構的關係是多麽緊密，以及整個數學系統的連結。
+    最後的期末專案選擇了資料結構當中算是非常重要的BFS,DFS來當作題目，並做一些延伸與應用，加深自己的印象。
+
+```
 
