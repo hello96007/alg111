@@ -21,8 +21,8 @@
 
 ## BFS與DFS程式碼
 #### 備註:參考 [陳鍾誠老師人工智慧課程](https://gitlab.com/cccnqu111/ai/-/blob/master/03-search/02-search/graph_search.py)
-#### 備註:參考 [bfs手寫筆記](https://github.com/hello96007/alg111/blob/main/alg/midterm/term/bfs.jpeg)
-#### 備註:參考 [dfs手寫筆記](https://github.com/hello96007/alg111/blob/main/alg/midterm/term/dfs.jpeg)
+#### 備註: [bfs手寫筆記](https://github.com/hello96007/alg111/blob/main/alg/midterm/term/bfs.jpeg)
+#### 備註: [dfs手寫筆記](https://github.com/hello96007/alg111/blob/main/alg/midterm/term/dfs.jpeg)
 1.BFS:
 
 ```
