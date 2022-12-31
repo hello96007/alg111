@@ -1,4 +1,4 @@
-# 演算法期末報告
+# 演算法期中報告
 ## [LeetCode-Swim in Rising Water(Hard)](https://leetcode.com/problems/swim-in-rising-water/description/)
 
 # 聲明
